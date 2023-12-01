@@ -3,11 +3,6 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 576px) {
-  .mobile-heading {
-    text-align: center;
-  }
-}
 
 body {
   margin-top: 100px;
@@ -90,4 +85,32 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h2,
+  p {
+    text-align: center;
+    display: block;
+    max-width: 100%;
+  }
+  .mobile-btn {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  a.email-link {
+    font-size: 23px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
 }
