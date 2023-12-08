@@ -142,4 +142,7 @@ p {
   .project-description {
     padding: 0;
   }
+  .navigation-links a {
+    margin: 5px;
+  }
 }
