@@ -1,37 +1,60 @@
 :root {
   --primary-color: #6c63ff;
+  --primary-font-family: "Playfair Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  margin-top: 100px;
+  font-family: var(--secondary-font-family);
+  text-align: center;
 }
-
-h1,
-h2,
-h3 {
-  margin: 0;
+.header h1 {
+  padding: 90px 0 0 0;
+  font-family: var(--primary-font-family);
+  font-size: 80px;
 }
-
-h1 {
+.header {
+  text-align: center;
+}
+.hero h1 {
+  font-family: var(--primary-font-family);
   font-size: 96px;
+  font-weight: bold;
 }
 
-h2 {
-  font-size: 48px;
+.hero h2 {
+  font-family: var(--secondary-font-family);
+  font-size: 36px;
 }
 
-h3 {
-  font-size: 24px;
+.hero h3 {
+  font-size: 25px;
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 30px;
 }
-
+.btn-branding-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.hero {
+  background: var(--secondary-color);
+  padding: 250px 60px;
+  text-align: center;
+}
+.project-description {
+  padding: 120px 60px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -86,31 +109,37 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 576px) {
+@media (max-width: 960px) {
   h2,
-  p {
+  p,
+  a {
     text-align: center;
     display: block;
     max-width: 100%;
-  }
-  .mobile-btn {
-    display: block;
-    max-width: 100%;
-    text-align: center;
-  }
-  .col-6 {
-    width: 100%;
   }
   a.email-link {
-    font-size: 23px;
+    font-size: 20px;
   }
-  h1 {
+  .header h1 {
     font-size: 45px;
   }
-  h2 {
-    font-size: 30px;
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero h3 {
+    font-size: 15;
   }
   p {
     font-size: 15px;
+  }
+  .project-description {
+    padding: 0;
   }
 }
