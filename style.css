@@ -15,9 +15,13 @@ body {
   font-family: var(--primary-font-family);
   font-size: 64px;
 }
-.content-container h3 {
+.content-container h2 {
   font-family: var(--primary-font-family);
   font-size: 48px;
+}
+.content-container h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
 }
 .content-container p {
   font-family: var(--secondary-font-family);
