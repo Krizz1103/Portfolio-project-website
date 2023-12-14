@@ -32,10 +32,6 @@ body {
   margin: 30px 30px;
   padding: 40px 30px;
 }
-footer {
-  font-family: var(--secondary-font-family);
-  font-size: 24px;
-}
 .hero h1 {
   font-family: var(--primary-font-family);
   font-size: 96px;
@@ -127,6 +123,10 @@ p {
 }
 footer {
   margin: 60px 0;
+}
+footer h2 {
+  font-family: var(--primary-font-family);
+  font-size: 48px;
 }
 footer .contact-box {
   background: var(--secondary-color);
