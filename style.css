@@ -125,7 +125,43 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 5px;
+}
 
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+footer .social-link i {
+  margin: 0px 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 25px;
+  transition: all 110ms ease-in-out;
+}
+footer .social-link i:hover {
+  color: white;
+  background: var(--primary-color);
+}
 .email-link:hover {
   text-decoration: underline;
 }
