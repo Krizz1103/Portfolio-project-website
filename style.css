@@ -23,6 +23,10 @@ body {
   font-family: var(--secondary-font-family);
   font-size: 24px;
 }
+.content-container img {
+  max-width: 500px;
+  border-radius: 10px;
+}
 .content-container p {
   font-family: var(--secondary-font-family);
   font-size: 18px;
@@ -30,7 +34,7 @@ body {
 .content-container {
   text-align: center;
   margin: 30px 30px;
-  padding: 40px 30px;
+  padding: 30px 30px;
 }
 .hero h1 {
   font-family: var(--primary-font-family);
