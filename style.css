@@ -71,8 +71,9 @@ p {
   text-align: center;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px;
 }
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -176,11 +177,21 @@ footer .social-link i:hover {
     display: block;
     max-width: 100%;
   }
+
   a.email-link {
     font-size: 20px;
   }
+  .content-container {
+    margin: 0;
+  }
   .content-container h1 {
     font-size: 40px;
+  }
+  .content-container h3 {
+    font-size: 25px;
+  }
+  .content-container img {
+    max-width: 250px;
   }
   .hero {
     padding: 80px 20px;
